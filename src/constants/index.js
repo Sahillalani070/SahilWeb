@@ -11,10 +11,10 @@ const navLinks = [
         name: "Skills",
         link: "#skills",
     },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
+    // {
+    //     name: "Testimonials",
+    //     link: "#testimonials",
+    // },
 ];
 
 const words = [
@@ -29,7 +29,7 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
+    { value: 3, suffix: "+", label: "Years of Experience" },
     { value: 200, suffix: "+", label: "Satisfied Clients" },
     { value: 108, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
@@ -51,24 +51,24 @@ const logoIconsList = [
     {
         imgPath: "/images/logos/company-logo-5.png",
     },
-    {
-        imgPath: "/images/logos/company-logo-6.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-7.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-8.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-9.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-10.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-11.png",
-    },
+    // {
+    //     imgPath: "/images/logos/company-logo-6.png",
+    // },
+    // {
+    //     imgPath: "/images/logos/company-logo-7.png",
+    // },
+    // {
+    //     imgPath: "/images/logos/company-logo-8.png",
+    // },
+    // {
+    //     imgPath: "/images/logos/company-logo-9.png",
+    // },
+    // {
+    //     imgPath: "/images/logos/company-logo-10.png",
+    // },
+    // {
+    //     imgPath: "/images/logos/company-logo-11.png",
+    // },
 ];
 
 const abilities = [
@@ -146,30 +146,42 @@ const techStackIcons = [
 ];
 
 const expCards = [
+
     {
         review:
-            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        imgPath: "/images/exp2.png",
+        logoPath: "/images/logo2.png",
+        title: "Coding & Robotics Coach",
+        date: "September 2025 - Present",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Tested and reviewed 50+ beta-stage games across PC, console, and mobile for Testify, identifying 100+ critical bugs, including memory spikes, partial rendering UI/UX breaks, using structured test plans and real-time feedback tools.",
+            "Earned a 63% increase in quarterly game assignments over 4 years due to consistent, detailed, and high-quality reporting, including real-time issue tracking, post-session forms, and developer debriefs, positioning myself as a top-tier contributor.",
         ],
     },
     {
         review:
             "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
         imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        logoPath: "/images/logo1.png",
+        title: "Game Tester",
+        date: "June 2021 - Present",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Tested and reviewed 50+ beta-stage games across PC, console, and mobile for Testify, identifying 100+ critical bugs, including memory spikes, partial rendering UI/UX breaks, using structured test plans and real-time feedback tools.",
+            "Earned a 63% increase in quarterly game assignments over 4 years due to consistent, detailed, and high-quality reporting, including real-time issue tracking, post-session forms, and developer debriefs, positioning myself as a top-tier contributor.",
+        ],
+    },
+
+    {
+        review:
+            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        imgPath: "/images/exp2.png",
+        logoPath: "/images/logo2.png",
+        title: "Data Analyst",
+        date: "March 2022 - December 2024",
+        responsibilities: [
+            "Improved the quality of geographic machine learning models by analyzing and scoring digital content (maps, audio, news, relevance signals), directly contributing to training data pipelines and enhancing model precision and data integrity.",
+            "Verified and validated location-based data through systematic testing, comparison, and content tagging, boosting the usability and accuracy of digital maps used by millions of global users.",
         ],
     },
     {
@@ -177,12 +189,24 @@ const expCards = [
             "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
         imgPath: "/images/exp3.png",
         logoPath: "/images/logo3.png",
-        title: "React Native Developer",
+        title: "Student Technical Assistant",
         date: "March 2019 - May 2020",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Strengthened security and reliability for campus computer labs by introducing step-by-step security checklists and automated monitoring, cutting security incidents by 20% and reducing emergency support calls.",
+            "Kept 1500+ student workstations running smoothly by rolling out timely software updates and patches, boosting overall system uptime by 15% and preventing classroom interruptions.",
+            "Accelerated new-computer turnaround by partnering with IT and academic staff to simplify the imaging playbook; trimmed the setup time per PC by 40%, so labs were ready for students sooner.",
+        ],
+    },
+    {
+        review:
+            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+        imgPath: "/images/exp1.png",
+        logoPath: "/images/logo01.png",
+        title: "Research Assistant",
+        date: "January 2020 - June 2021",
+        responsibilities: [
+            "Guided students through coding challenges across eight STEM courses by debugging code, setting up tools (e.g., VS Code, Eclipse, GitHub, BlueJ), and simplifying core concepts in Python, Java, C++, and SQL, boosting lab grades by 150%.",
+            "Created pre-lab tutorial videos with faculty to address common setup roadblocks, helping 300+ students install development tools before class, reducing lab downtime, and increasing early assignment completion rates."
         ],
     },
 ];
@@ -248,16 +272,16 @@ const testimonials = [
 ];
 
 const socialImgs = [
-    {
-        name: "insta",
-        url: "https://www.instagram.com/",
-        imgPath: "/images/insta.png",
-    },
-    {
-        name: "fb",
-        url: "https://www.facebook.com/",
-        imgPath: "/images/fb.png",
-    },
+    // {
+    //     name: "insta",
+    //     url: "https://www.instagram.com/",
+    //     imgPath: "/images/insta.png",
+    // },
+    // {
+    //     name: "fb",
+    //     url: "https://www.facebook.com/",
+    //     imgPath: "/images/fb.png",
+    // },
     {
         name: "x",
         url: "https://www.x.com/",
@@ -265,7 +289,7 @@ const socialImgs = [
     },
     {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
+        url: "https://www.linkedin.com/in/sahillalani070/",
         imgPath: "/images/linkedin.png",
     },
 ];
